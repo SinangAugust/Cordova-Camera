@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+    border : 0px;
+    margin : 0px;
+    padding : 0px;
+    border-radius: 0px; }
+html{
+   box-sizing: border-box; }
+html * , html *::after , html *::before{
+    box-sizing: inherit; }
+body{
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */ 
+    background-color: #a7a79c; }
+h1{
+    margin: 6px 0px;
+    font-size : 35px;
+    text-align: center; 
+    color : rgb(0, 0, 0); 
+    font-family: 'Poppins';
+}
+    
+.xmpl {
+    display: flex;
+    flex-direction: column; }
+.xmpl .button{
+    text-align: center;
+    margin: 0px 19px 6px;
+    border : 1px solid rgb(0, 0, 0);
+    border-radius: 18px;
+    color: rgb(99, 68, 22);
+    padding : 4px 0px;
+    font-family: 'Poppins';
+    font-size : 25px;
+    background-color: rgb(247, 232, 218); }
+.xmpl .button.touchStart{
+    background-color: transparent; }
+.xmpl img , .xmpl video{
+    object-fit: contain;
+    width : 100%; 
+    border : 2px solid rgb(0, 0, 0);
+    min-height: 128px;
+    margin-bottom: 12px; }
+.note {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 2vw;
+}
